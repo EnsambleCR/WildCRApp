@@ -26,7 +26,7 @@
           <a href="#wildApp">Wild App</a>
           <a href="#costarica">Costa Rica</a>
           <a href="#">Donate</a>
-          <a href="#" class="waves-effect waves-light btn stdBtn" id="getStarted">Get Started</a>
+          <a href="components/registration/registration.view.html" class="waves-effect waves-light btn stdBtn" id="getStarted">Get Started</a>
         </div>
 
         <div id="navFlow">
@@ -58,7 +58,7 @@
         <h2 style="font-family: 'Montserrat'; font-weight: 600; font-size: 3em;"><span>WildCR</span> -Costa Rica<br> nature guide for tourism.</h2>
         <p>Did you ever dream to visit the happiest country in the world? If so, where should you go? We're here to help. Costa Rica is full of beautiful places, a blessed country located in Central America.</p>
         <p><span>WildCR</span> gathered the most completed information about National Parks and refuges in the country. Share your best pictures and experiences with your friends and discover the magic of nature.</p>    
-        <a href="" class="waves-effect waves-light btn-large stdBtn">Get Started</a>
+        <a href="components/registration/registration.view.html" class="waves-effect waves-light btn-large stdBtn">Get Started</a>
       </div>
       <div id="appImg">
         <!-- <a href="#"><img class="logo" type="image/svg+xml" src="img/svg/phone.svg" class="img-fluid" style="align-self: center;"></a>           -->
@@ -92,13 +92,24 @@
     <section id="costarica">
       <div id="picturesCR">
         <div>
-          <!-- <img src="img/guana.jpg" alt="" class="img-fluid"> -->
           <img src="assets/img/monteverde.jpg" alt="">
         </div>
       </div>
       <div id="contentCR">
         <h2 style="font-family: 'Montserrat'; font-weight: 600; font-size: 3em;"><span>Costa Rica</span> -The endless nature and happiness paradise</h2>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, nemo corporis eveniet at cupiditate iusto ullam ut minima ipsum aliquam reiciendis vero iste autem vitae repellendus deserunt fuga consectetur! Aut animi libero, dignissimos eligendi sapiente in id fuga odit optio.</p>   
+      </div>
+    </section>
+    <hr>
+    <section id="donations">
+      <div id="donatContent">
+        <h2 style="font-family: 'Montserrat'; font-weight: 600; font-size: 3em;"><span>Donations</span> -Conservation is the key of our future</h2>        
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, nemo corporis eveniet at cupiditate iusto ullam ut minima ipsum aliquam reiciendis vero iste autem vitae repellendus deserunt fuga consectetur! Aut animi libero, dignissimos eligendi sapiente in id fuga odit optio.</p>             
+      </div>
+      <div id="donatPic">
+        <img src="assets/img/frog.jpg" alt="" class="img-fluid">
+        <img src="assets/img/parrots.jpg" alt="" class="img-fluid">
+        <img src="assets/img/tucan.jpg" alt="" class="img-fluid">
       </div>
     </section>
     
@@ -112,51 +123,9 @@
     <div></div>
   </footer>
   
-  <!-- <div class="container"  ng-controller="newUserCtrl">
-    <h1 class="display-4">Información</h1>
-    <form ng-submit="addNewUser()">
-      <p>Ingrese su nombre:</p>
-      <input type="text" class="form-control" ng-model="user.name">
-
-      <p>Ingrese su lugar de trabajo</p>
-      <input type="text" class="form-control" ng-model="user.work">
-
-      <p>Ingrese su salario mensual:</p>
-      <input type="text" class="form-control" ng-model="user.salary">
-
-      <p>Elija su genero:</p>
-      <select ng-model='user.gender' class="form-control">
-        <option value="M" ng-model='user.gender'>Masculino</option>
-        <option value="F" ng-model='user.gender'>Femenino</option>
-      </select><br>
-    <input type="submit" value="Guardar" class="btn btn-success">
-  </form>
-
-  <div>
-    <h1 class="display-4">Resume</h1>
-    <input type="text" ng-model="userSearch.name" class="form-control" placeholder="search">
-    <hr>
-    <table class="table">
-      <thead>
-        <th>Nombre<th>
-        <th>Trabajo<th>
-        <th>Salario<th>
-        <th>Genero<th>
-      </thead>
-      <tbody ng-repeat="user in users | filter: userSearch">
-        <td>{{user.name}}<td>
-        <td>{{user.work}}<td>
-        <td>{{user.salary | currency}}<td>
-        <td>{{user.gender}}<td>
-      </tbody>
-    </table>
-  </div>
-
-  </div> -->
   <script defer src="https://use.fontawesome.com/releases/v5.0.1/js/all.js"></script>
-  
   <script src="assets/lib/angular.min.js"></script>
-  <script src="app.js"></script>
+  <!-- <script src="app.js"></script> -->
   <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
   <!-- Compiled and minified JavaScript -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>

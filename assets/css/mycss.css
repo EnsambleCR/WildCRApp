@@ -135,7 +135,7 @@ hr{
 #costarica{
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
+  /* grid-template-rows: 1fr 1fr; */
   grid-column-gap: 30px;
   margin: 80px;
   align-items: center;
@@ -146,6 +146,23 @@ hr{
 }
 #contentCR{
 
+}
+
+#donations{
+  margin: 80px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 30px;
+}
+#donatContent{
+
+}
+#donatPic{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-gap: 10px;
+  justify-items: end;
 }
 span {
   color: #19c79e;
