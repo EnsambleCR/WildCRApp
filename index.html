@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en" ng-app='myApp'>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- <link rel="stylesheet" href="css/bootstrap.min.css"> -->
+  <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous"> -->
+  <!-- Google Web Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:300,600" rel="stylesheet">
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+  <!-- Custom stylesheet -->
+  <link rel="stylesheet" href="assets/css/mycss.css">
+  <title>WildCR</title>
+</head>
+<body>
+  <header>
+    <section id="hero">
+      <nav>
+        <div id="navLogo">
+          <a href="#"><img class="logo" type="image/svg+xml" src="assets/img/svg/wild_white.svg" height="50px" width="65px"></a>
+        </div>
+          
+        <div id="mainNav">
+          <a href="#wildApp">Wild App</a>
+          <a href="#costarica">Costa Rica</a>
+          <a href="#">Donate</a>
+          <a href="#" class="waves-effect waves-light btn stdBtn" id="getStarted">Get Started</a>
+        </div>
+
+        <div id="navFlow">
+          <a href="#"><i class="fas fa-search fa-2x"></i></a>
+          
+        </div>    
+      </nav>
+      
+      <div id="heroContent">
+        <div>
+          <ul style="padding: 0; text-align: center;">
+            <li style="margin: 30px 0; color: #fff"><i class="fab fa-facebook fa-2x"></i></li>
+            <li style="margin: 30px 0; color: #fff"><i class="fab fa-twitter fa-2x"></i></li>
+          </ul>
+        </div>
+        <div id="heroCopy">
+          <p><span>Costa Rica</span> is the place where you become one with <span>nature</span>. What are you waiting for?</p>
+        </div>
+        <div id="heroImg">
+            
+        </div>
+      </div>
+      </section>
+  </header>
+  
+  <main>
+    <section id="wildApp">
+      <div id="appDesc">
+        <h2 style="font-family: 'Montserrat'; font-weight: 600; font-size: 3em;"><span>WildCR</span> -Costa Rica<br> nature guide for tourism.</h2>
+        <p>Did you ever dream to visit the happiest country in the world? If so, where should you go? We're here to help. Costa Rica is full of beautiful places, a blessed country located in Central America.</p>
+        <p><span>WildCR</span> gathered the most completed information about National Parks and refuges in the country. Share your best pictures and experiences with your friends and discover the magic of nature.</p>    
+        <a href="" class="waves-effect waves-light btn-large stdBtn">Get Started</a>
+      </div>
+      <div id="appImg">
+        <!-- <a href="#"><img class="logo" type="image/svg+xml" src="img/svg/phone.svg" class="img-fluid" style="align-self: center;"></a>           -->
+        <img src="assets/img/phone.png" alt="" class="img-fluid">
+      </div>
+    </section>
+    <hr>
+    <section id="features">
+      <h2 style="font-family: 'Montserrat'; font-weight: 600; font-size: 3em;">Features: All you can do <br> with <span>WildCR</span></h2>
+      <div class="boxes">
+        <div class="box">
+          <h4><i class="fas fa-image"></i> Collect landscapes and moments</h4>
+          <p>We provide you with suggested places you haven't tasted yet. Go for new adventures!</p>
+        </div>
+        <div class="box">
+          <h4><i class="fab fa-envira"></i> Search and discover the nature</h4>
+          <p>Discover new places with our map. You can easily get a route with the help of Waze driving application.</p>
+        </div>
+        <div class="box">
+          <h4><i class="fas fa-camera-retro"></i> Share your best shots with friends</h4>
+          <p>Show your friends how much you're enjoying capturing moments. Use hashtag #WildCR</p>
+        </div>
+        <div class="box">
+          <h4><i class="fas fa-ticket-alt"></i> Get tickets for National Parks</h4>
+          <p>You can easily buy tickets for Parks from your home, so you just go into nature!</p>
+        </div>
+      </div>        
+    </section>
+    <hr>
+
+    <section id="costarica">
+      <div id="picturesCR">
+        <div>
+          <!-- <img src="img/guana.jpg" alt="" class="img-fluid"> -->
+          <img src="assets/img/monteverde.jpg" alt="">
+        </div>
+      </div>
+      <div id="contentCR">
+        <h2 style="font-family: 'Montserrat'; font-weight: 600; font-size: 3em;"><span>Costa Rica</span> -The endless nature and happiness paradise</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, nemo corporis eveniet at cupiditate iusto ullam ut minima ipsum aliquam reiciendis vero iste autem vitae repellendus deserunt fuga consectetur! Aut animi libero, dignissimos eligendi sapiente in id fuga odit optio.</p>   
+      </div>
+    </section>
+    
+  </main>
+
+  <footer>
+    <div class="img-circle">
+      <a href="#"><img class="logo" type="image/svg+xml" src="assets/img/svg/wild_darkgray.svg" height="200px" width="200px"></a>  
+    </div>
+    <div></div>
+    <div></div>
+  </footer>
+  
+  <!-- <div class="container"  ng-controller="newUserCtrl">
+    <h1 class="display-4">Información</h1>
+    <form ng-submit="addNewUser()">
+      <p>Ingrese su nombre:</p>
+      <input type="text" class="form-control" ng-model="user.name">
+
+      <p>Ingrese su lugar de trabajo</p>
+      <input type="text" class="form-control" ng-model="user.work">
+
+      <p>Ingrese su salario mensual:</p>
+      <input type="text" class="form-control" ng-model="user.salary">
+
+      <p>Elija su genero:</p>
+      <select ng-model='user.gender' class="form-control">
+        <option value="M" ng-model='user.gender'>Masculino</option>
+        <option value="F" ng-model='user.gender'>Femenino</option>
+      </select><br>
+    <input type="submit" value="Guardar" class="btn btn-success">
+  </form>
+
+  <div>
+    <h1 class="display-4">Resume</h1>
+    <input type="text" ng-model="userSearch.name" class="form-control" placeholder="search">
+    <hr>
+    <table class="table">
+      <thead>
+        <th>Nombre<th>
+        <th>Trabajo<th>
+        <th>Salario<th>
+        <th>Genero<th>
+      </thead>
+      <tbody ng-repeat="user in users | filter: userSearch">
+        <td>{{user.name}}<td>
+        <td>{{user.work}}<td>
+        <td>{{user.salary | currency}}<td>
+        <td>{{user.gender}}<td>
+      </tbody>
+    </table>
+  </div>
+
+  </div> -->
+  <script defer src="https://use.fontawesome.com/releases/v5.0.1/js/all.js"></script>
+  
+  <script src="assets/lib/angular.min.js"></script>
+  <script src="app.js"></script>
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+</body>
+</html>
